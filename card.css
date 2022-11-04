@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 350px;
+    padding: 30px;
+}
+
+.first img {
+margin-bottom: 40px;
+}
+
+.first h1 {
+    margin-bottom: 30px;
+}
+
+.first p {
+    margin-bottom: 30px;
+}
+
+.first button {
+    color: hsl(31, 77%, 52%);
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 500px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+    height: 350px;
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.second img {
+    margin-bottom: 40px;
+}
+
+.second h1 {
+    margin-bottom: 30px;
+}
+
+.second p {
+    margin-bottom: 30px;
+}
+
+.second button {
+    color: hsl(184, 100%, 22%);
+    border: none;
+    margin-bottom: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    height: 350px;
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.third img {
+    margin-bottom: 40px;
+}
+
+.third h1 {
+    margin-bottom: 30px;
+}
+.third p {
+    margin-bottom: 30px;
+}
+
+.third button {
+    color: hsl(179, 100%, 13%);
+    border: none;
+    margin-bottom: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
